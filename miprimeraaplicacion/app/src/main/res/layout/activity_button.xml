@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ButtonActivity">
+
+    <TextView
+            android:text="TextView"
+            android:layout_width="78dp"
+            android:layout_height="40dp"
+            android:id="@+id/act_but_nombre_apellido" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toTopOf="parent" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="8dp"
+            app:layout_constraintVertical_bias="0.116" app:layout_constraintHorizontal_bias="0.534"/>
+    <Button
+            android:text="Enviar Intent Implicito"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" tools:layout_editor_absoluteY="376dp"
+            android:id="@+id/but_but_intent_implicito" app:layout_constraintEnd_toEndOf="@+id/act_but_nombre_apellido"
+            app:layout_constraintStart_toStartOf="@+id/act_but_nombre_apellido"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="Correo"
+            android:ems="10"
+            tools:layout_editor_absoluteY="123dp" android:id="@+id/text_correo"
+            app:layout_constraintEnd_toEndOf="@+id/act_but_nombre_apellido"
+            app:layout_constraintStart_toStartOf="@+id/act_but_nombre_apellido"
+            app:layout_constraintHorizontal_bias="0.452" android:layout_marginEnd="10dp"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="Subject"
+            android:ems="10"
+            tools:layout_editor_absoluteY="199dp" android:id="@+id/text_subject"
+            app:layout_constraintEnd_toEndOf="@+id/text_correo" app:layout_constraintStart_toStartOf="@+id/text_correo"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="Texto"
+            android:ems="10"
+            tools:layout_editor_absoluteY="288dp" android:id="@+id/texto_text"
+            app:layout_constraintEnd_toEndOf="@+id/text_subject"
+            app:layout_constraintStart_toStartOf="@+id/text_subject"/>
+</android.support.constraint.ConstraintLayout>
