@@ -17,7 +17,7 @@ class ButtonActivity : AppCompatActivity() {
         this.capturarDatosIntent()
         act_but_nombre_apellido.text = "${nombre} ${apellido}"
 
-        but_but_intent_implicito.setOnClickListener(enviarIntentCorreo)
+        //but_but_intent_implicito.setOnClickListener(enviarIntentCorreo)
 
     }
 
