@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Moviles.GR2</string>
+    <array name="ListEntries">
+        <item> INGLES </item>
+        <item> ALEMAN </item>
+        <item> FRANCES </item>
+    </array>
+</resources>
