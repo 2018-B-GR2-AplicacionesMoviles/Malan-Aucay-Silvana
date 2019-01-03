@@ -1,0 +1,4 @@
+#Fri Nov 30 15:27:10 ECT 2018
+base.0=/Users/usrdel/Documents/GitHub/Malan-Aucay-Silvana/examen/app/build/intermediates/transforms/dexMerger/debug/1
+path.0=classes.dex
+renamed.0=classes.dex

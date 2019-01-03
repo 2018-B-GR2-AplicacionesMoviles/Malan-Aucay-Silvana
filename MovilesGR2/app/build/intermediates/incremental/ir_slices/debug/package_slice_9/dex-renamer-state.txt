@@ -1,0 +1,4 @@
+#Fri Nov 23 16:08:56 ECT 2018
+base.0=/Users/usrdel/Documents/GitHub/Malan-Aucay-Silvana/MovilesGR2/app/build/intermediates/transforms/dexMerger/debug/9
+path.0=classes.dex
+renamed.0=classes.dex
